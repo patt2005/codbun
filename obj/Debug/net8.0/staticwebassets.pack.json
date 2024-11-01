@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/obj/Debug/net8.0/scopedcss/projectbundle/CodBun.bundle.scp.css",
+      "PackagePath": "staticwebassets/CodBun.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/css/codbun-91733e.webflow.d505c2c8b.css",
+      "PackagePath": "staticwebassets/css/codbun-91733e.webflow.d505c2c8b.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/1.jpeg",
+      "PackagePath": "staticwebassets/images/1.jpeg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/2.jpeg",
+      "PackagePath": "staticwebassets/images/2.jpeg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/3.png",
+      "PackagePath": "staticwebassets/images/3.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2d88_blobs3.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2d88_blobs3.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2d89_blobs.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2d89_blobs.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2d8a_blobs2.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2d8a_blobs2.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2d8b_img2.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2d8b_img2.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2d8c_img3.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2d8c_img3.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2daa_pexels-karolina-grabowska-7876739 (1).jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2daa_pexels-karolina-grabowska-7876739 (1).jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2dab_pexels-edmond-dantes-4347368.jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2dab_pexels-edmond-dantes-4347368.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2dac_pexels-cristian-rojas-10041258.jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2dac_pexels-cristian-rojas-10041258.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2db0_hero_img.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2db0_hero_img.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2db1_pexels-karolina-grabowska-8528744.jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2db1_pexels-karolina-grabowska-8528744.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2db3_pexels-tima-miroshnichenko-5717546.jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2db3_pexels-tima-miroshnichenko-5717546.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2db4_pexels-thisisengineering-3861954.jpg",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2db4_pexels-thisisengineering-3861954.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/6723504319a79c02c12c2de0_imghero3.webp",
+      "PackagePath": "staticwebassets/images/6723504319a79c02c12c2de0_imghero3.webp"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/672487f092114e10eea07bcd_Add a heading.png",
+      "PackagePath": "staticwebassets/images/672487f092114e10eea07bcd_Add a heading.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/small-logo.png",
+      "PackagePath": "staticwebassets/small-logo.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/team.jpeg",
+      "PackagePath": "staticwebassets/team.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CodBun.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CodBun.props",
+      "PackagePath": "build\\CodBun.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CodBun.props",
+      "PackagePath": "buildMultiTargeting\\CodBun.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CodBun.props",
+      "PackagePath": "buildTransitive\\CodBun.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

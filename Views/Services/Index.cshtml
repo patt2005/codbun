@@ -1,0 +1,182 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    .pricing-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+
+    .pricing-header h2 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .pricing-header p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 40px;
+    }
+
+    .pricing-cards {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pricing-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 300px;
+        text-align: left;
+        transition: transform 0.3s ease;
+    }
+
+    .pricing-card:hover {
+        transform: scale(1.05);
+    }
+
+    .pricing-icon img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+        border-radius: 20%;
+        overflow: hidden;
+    }
+
+    .pricing-card h3 {
+        font-size: 22px;
+        color: #333;
+        margin: 10px 0;
+    }
+
+    .price {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin: 10px 0 20px;
+    }
+
+    .get-started-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background: linear-gradient(to right, #4a00e0, #8e2de2);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+        text-align: center;
+    }
+
+    .get-started-button:hover {
+        background: linear-gradient(to right, #3a00c0, #7a23c2);
+    }
+
+    .features-list {
+        margin-top: 20px;
+        padding-left: 20px;
+        color: #666;
+        font-size: 14px;
+    }
+
+    .features-list li {
+        margin-bottom: 10px;
+    }
+
+    /* Different styles for each plan */
+    .starter {
+        border-top: 4px solid #8e2de2;
+    }
+
+    .business {
+        border-top: 4px solid #4a00e0;
+        background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+        color: #fff;
+    }
+
+    .business h3, .business .price, .business .features-list {
+        color: #fff;
+    }
+
+    .business .get-started-button {
+        background: #fff;
+        color: #4a00e0;
+    }
+
+    .business .get-started-button:hover {
+        background: #e0e0e0;
+        color: #4a00e0;
+    }
+
+    .golden {
+        border-top: 4px solid #4a00e0;
+    }
+</style>
+
+<section class="pricing-section">
+    <div class="pricing-header">
+        <h2>A perfect plan for your business.</h2>
+        <p>Take your business ideas to the next level with our custom software development service.</p>
+    </div>
+    <div class="pricing-cards">
+        <!-- Starter Plan -->
+        <div class="pricing-card starter">
+            <div class="pricing-icon">
+                <img src="~/small-logo.png" alt="Starter Icon">
+            </div>
+            <h3>Starter</h3>
+            <p class="price">$1000/mo</p>
+            <button class="get-started-button">Get started</button>
+            <ul class="features-list">
+                <li>Basic code implementation</li>
+                <li>Basic reporting</li>
+                <li>Project planning assistance</li>
+                <li>Access to development tools</li>
+                <li>Up to 20 hours/month</li>
+            </ul>
+        </div>
+
+        <!-- Business Plan -->
+        <div class="pricing-card business">
+            <div class="pricing-icon">
+                <img src="~/small-logo.png" alt="Business Icon">
+            </div>
+            <h3>Business</h3>
+            <p class="price">$4000/mo</p>
+            <button class="get-started-button">Get started</button>
+            <ul class="features-list">
+                <li>Task assignment & tracking</li>
+                <li>Weekly meetings for project</li>
+                <li>Advanced testing & quality</li>
+                <li>API and third-party integrations</li>
+                <li>Up to 120 hours/month</li>
+            </ul>
+        </div>
+
+        <!-- Golden Plan -->
+        <div class="pricing-card golden">
+            <div class="pricing-icon">
+                <img src="~/small-logo.png" alt="Golden Icon">
+            </div>
+            <h3>Golden</h3>
+            <p class="price">$6000/mo</p>
+            <button class="get-started-button">Get started</button>
+            <ul class="features-list">
+                <li>Custom software architecture</li>
+                <li>Basic reporting</li>
+                <li>Calendar integration</li>
+                <li>User roles & permissions</li>
+                <li>Up to 160 hours/month</li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,654 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const tabLinks = document.querySelectorAll(".mainfeatures_tabs-link");
+        const tabPanes = document.querySelectorAll(".mainfeatures_tabs-pane");
+
+        tabLinks.forEach((link) => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const targetTab = this.getAttribute("data-tab");
+
+                // Remove active state from all links and panes
+                tabLinks.forEach((link) => link.classList.remove("w--current"));
+                tabPanes.forEach((pane) => (pane.style.display = "none"));
+
+                // Add active state to the clicked link and corresponding pane
+                this.classList.add("w--current");
+                document.getElementById(targetTab).style.display = "block";
+            });
+        });
+
+        // Set the default active tab on page load
+        document.querySelector(".mainfeatures_tabs-link[data-tab='tab3']").click();
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const toggleButton = question.querySelector('.faq-toggle');
+
+                // Toggle answer display
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                    toggleButton.textContent = '+';  // Switch to "+" when collapsed
+                } else {
+                    answer.style.display = 'block';
+                    toggleButton.textContent = '×';  // Switch to "×" when expanded
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .w-container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .mainfeatures_tabs-menu {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mainfeatures_tabs-link {
+        padding: 10px 20px;
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .mainfeatures_tabs-link.w--current {
+        font-weight: bold;
+        color: #000;
+    }
+
+    .mainfeatures_tabs-content {
+        border-top: 1px solid #ddd;
+        padding-top: 20px;
+    }
+
+    .mainfeatures_pane-content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mainfeatures_image-wrapper {
+        flex: 1;
+        text-align: center;
+    }
+
+    .mainfeatures_image {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .mainfeatures_content-wrapper {
+        flex: 1;
+    }
+
+    .mainfeatures_content-wrapper h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .mainfeatures_content-wrapper p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+    }
+
+    .testimonial-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #888;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .testimonial-content {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial_image-wrapper {
+        position: relative;
+        flex: 1;
+        border-radius: 20px; /* Smooth rounding */
+        overflow: hidden;
+        box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+    }
+
+    .testimonial_image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: inherit; /* Ensures the image takes the same rounding as the container */
+    }
+
+    .satisfaction-percentage {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4); /* Subtle text shadow for readability */
+    }
+    
+    .satisfaction-percentage::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+        border-radius: inherit; /* Matches the image container's rounded corners */
+        z-index: -1;
+    }
+
+    .satisfaction-percentage h3 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .satisfaction-percentage p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .testimonial_text-wrapper {
+        flex: 1;
+        max-width: 600px;
+        text-align: left;
+    }
+
+    .testimonial-rating .star {
+        color: #1E88E5; /* Adjust color as needed */
+        font-size: 24px;
+    }
+
+    .testimonial-quote {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333;
+        margin: 20px 0;
+    }
+
+    .testimonial-author {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .author-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .author-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .author-title {
+        font-size: 14px;
+        color: #888;
+        margin: 0;
+    }
+
+    .feature-section .feature-heading h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .feature-section .feature-content {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .feature_image-wrapper {
+        position: relative;
+        flex: 1;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature_image {
+        width: 100%;
+        height: auto;
+        border-radius: inherit;
+    }
+
+    .overlay-content {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 80%;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-box h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .timeline-box a {
+        font-size: 14px;
+        color: #1E88E5;
+        text-decoration: none;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .timeline-item {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .task-label {
+        font-size: 14px;
+        padding: 4px 8px;
+        border-radius: 6px;
+        margin-right: 10px;
+    }
+
+    .task-label.black {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .task-label.orange {
+        background-color: #FF7043;
+        color: #fff;
+    }
+
+    .task-label.blue {
+        background-color: #1E88E5;
+        color: #fff;
+    }
+
+    .avatars {
+        display: flex;
+        gap: 5px;
+        font-size: 18px;
+    }
+
+    .feature_text-wrapper {
+        flex: 1;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .feature_text-wrapper h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .feature_text-wrapper p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        margin-top: 10px;
+    }
+
+    .faq-section {
+        background-color: #f9fbfd;
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .faq-heading {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .faq-item {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .faq-item:hover {
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .faq-toggle {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .faq-answer {
+        display: none;
+        padding-top: 10px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .faq-contact {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #ddd;
+    }
+
+    .contact-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, #1e88e5, #1976d2);
+        color: #ffffff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+
+    .contact-button:hover {
+        background: linear-gradient(135deg, #1976d2, #1e88e5);
+    }
+</style>
+
+<div data-w-id="9f4cb4fe-02b7-c068-e94c-0516fe342a06" class="hero_wrapper" style="margin-left: 10%; margin-right: 10%">
+    <div data-w-id="9f4cb4fe-02b7-c068-e94c-0516fe342a0a" class="hero_column-wrapper">
+        <div class="hero_text">
+            <h1 class="heading-3">It's time to make your <span class="text-color-highlighted">software.</span></h1>
+            <div class="hero_text-paragraph">
+                <p class="paragraph-3">
+                    Quality as a priority. Efficiency as an advantage. Project success as the main
+                    goal.
+                </p>
+            </div>
+        </div>
+        <div class="button-group">
+            <a href="/Services"
+               class="button is-icon w-inline-block">
+                <div class="text-weight-semibold text-size-regular">Start a project</div>
+                <div class="icon-embed-xsmall w-embed">
+                    <!--?xml version="1.0" encoding="UTF-8"?-->
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <defs>
+                            <style>
+                          .cls-1 {
+                            fill: currentcolor;
+                            stroke-width: 0px;
+                          }
+                        </style>
+                        </defs>
+                        <polygon class="cls-1"
+                                 points="8.35 15.35 7.65 14.65 14.29 8 7.65 1.35 8.35 .65 15.71 8 8.35 15.35">
+                        </polygon>
+                        <rect class="cls-1" x="1" y="7.5" width="14" height="1"></rect>
+                    </svg>
+                </div>
+            </a>
+            <a href="/Team"
+               class="button is-secondary text-size-regular text-weight-semibold w-button">
+                Contact us
+            </a>
+        </div>
+    </div>
+    <div class="hero_image-wrapper">
+        <img class="img_hero-mobile" src="~/images/6723504319a79c02c12c2db0_hero_img.webp"
+             alt="UI Elements, time management app."
+             style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+             sizes="(max-width: 479px) 100vw, (max-width: 767px) 74vw, 100vw"
+             data-w-id="28515dd6-c5a7-6828-2677-f673bbc5f851" loading="lazy"
+             srcset="https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2db0_hero_img-p-500.webp 500w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2db0_hero_img-p-800.webp 800w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2db0_hero_img.webp 1000w">
+        <img
+            class="img_hero-1" src="~/images/6723504319a79c02c12c2d89_blobs.webp"
+            alt="Abstract 3D shapes, bubbles in orange and blue."
+            style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+            sizes="(max-width: 767px) 100vw, (max-width: 991px) 320px, 35vw"
+            data-w-id="d4ef5b87-80d7-9065-c7c1-de7060683e41" loading="lazy"
+            srcset="https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2d89_blobs-p-500.webp 500w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2d89_blobs-p-800.webp 800w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2d89_blobs-p-1080.webp 1080w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/6723504319a79c02c12c2d89_blobs.webp 1500w">
+        <img
+            class="img_hero-2" src="~/images/672487f092114e10eea07bcd_Add a heading.png" alt=""
+            style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+            sizes="(max-width: 767px) 100vw, (max-width: 991px) 260px, 29vw"
+            data-w-id="6a1f61ae-41fc-9307-ac1c-929a58d10fdc" loading="lazy"
+            srcset="https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/672487f092114e10eea07bcd_Add%20a%20heading-p-500.png 500w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/672487f092114e10eea07bcd_Add%20a%20heading-p-800.png 800w, https://cdn.prod.website-files.com/6723504319a79c02c12c2cc4/672487f092114e10eea07bcd_Add%20a%20heading.png 842w">
+        <img
+            src="~/images/6723504319a79c02c12c2de0_imghero3.webp" loading="lazy"
+            style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+            data-w-id="2998ce8d-44f3-5162-d8fc-47705e0781b3" alt="UI element of an app, calendar tile"
+            class="img_hero-3">
+    </div>
+</div>
+
+<div class="w-layout-blockcontainer padding-global padding-section-medium w-container">
+    <div class="mainfeatures_heading">
+        <div class="section-header text-align-center">
+            <h2 class="heading-style-h6">Codbun features</h2>
+            <h3>
+                <strong>Empowering Digital Transformation for Your Business</strong>
+            </h3>
+        </div>
+        <div class="mainfeatures_component">
+            <div class="mainfeatures_tabs w-tabs">
+                <div class="mainfeatures_tabs-menu w-tab-menu" role="tablist">
+                    <a href="#" class="mainfeatures_tabs-link w-tab-link" data-tab="tab1">Custom Applications</a>
+                    <a href="#" class="mainfeatures_tabs-link w-tab-link" data-tab="tab2">Client Onboarding</a>
+                    <a href="#" class="mainfeatures_tabs-link w-tab-link w--current" data-tab="tab3">API Integrations</a>
+                </div>
+                <div class="mainfeatures_tabs-content w-tab-content">
+                    <!-- Tab 1 -->
+                    <div class="mainfeatures_tabs-pane w-tab-pane" id="tab1" style="display: none;">
+                        <div class="w-layout-grid mainfeatures_pane-content">
+                            <div class="mainfeatures_image-wrapper">
+                                <img src="~/images/6723504319a79c02c12c2d88_blobs3.webp" alt="Custom Applications" class="mainfeatures_image">
+                            </div>
+                            <div class="mainfeatures_content-wrapper">
+                                <h3>Bring Your Vision to Life with Custom Applications</h3>
+                                <p>We build custom applications tailored to your unique business needs. From design to deployment, our team crafts solutions that integrate seamlessly with your existing systems and elevate your brand.</p>
+                                <a href="/Work" class="button is-secondary w-button">Get demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 2 -->
+                    <div class="mainfeatures_tabs-pane w-tab-pane" id="tab2" style="display: none;">
+                        <div class="w-layout-grid mainfeatures_pane-content">
+                            <div class="mainfeatures_image-wrapper">
+                                <img src="~/images/6723504319a79c02c12c2d8a_blobs2.webp" alt="Client Onboarding" class="mainfeatures_image">
+                            </div>
+                            <div class="mainfeatures_content-wrapper">
+                                <h3>Effortless Client Onboarding for Better Engagement</h3>
+                                <p>Create a welcoming experience for new clients with a streamlined onboarding process. Our solutions simplify onboarding, helping you build strong client relationships from day one.</p>
+                                <a href="/Work" class="button is-secondary w-button">Get demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 3 -->
+                    <div class="mainfeatures_tabs-pane w-tab-pane" id="tab3">
+                        <div class="w-layout-grid mainfeatures_pane-content">
+                            <div class="mainfeatures_image-wrapper">
+                                <img src="~/images/6723504319a79c02c12c2d8a_blobs2.webp" alt="API Integrations" class="mainfeatures_image">
+                            </div>
+                            <div class="mainfeatures_content-wrapper">
+                                <h3>Connect and Automate with Powerful API Integrations</h3>
+                                <p>Maximize efficiency by integrating your systems with leading APIs. Our team enables secure, seamless connections between your software and other platforms, automating workflows and unlocking new possibilities for your business.</p>
+                                <a href="/Work" class="button is-secondary w-button">Get demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="testimonial-section">
+    <div class="w-layout-blockcontainer padding-global padding-section-medium w-container">
+        <div class="testimonial-heading text-align-center">
+            <p class="section-subtitle">TESTIMONIALS</p>
+            <h2>We believe our team is the best out there. But, listen to our happy clients.</h2>
+        </div>
+        <div class="testimonial-content">
+            <div class="testimonial_image-wrapper">
+                <img src="~/images/6723504319a79c02c12c2d88_blobs3.webp" alt="Team satisfaction improvement" class="testimonial_image">
+                <div class="satisfaction-percentage">
+                    <h3>75.54%</h3>
+                    <p>Team satisfaction improvement</p>
+                </div>
+            </div>
+            <div class="testimonial_text-wrapper">
+                <div class="testimonial-rating">
+                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+                <p class="testimonial-quote">
+                    “I’m thrilled with the Codbun Team! Their work goes beyond expectations—it’s fast, flawless, and truly impressive. Every project they take on is handled with precision, and they always deliver high-quality results.”
+                </p>
+                <div class="testimonial-author">
+                    <img src="~/images/6723504319a79c02c12c2db3_pexels-tima-miroshnichenko-5717546.jpg" alt="Elena Guțu" class="author-image">
+                    <div>
+                        <p class="author-name">Elena Guțu</p>
+                        <p class="author-title">Project Manager, Endava</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature-section">
+    <div class="w-layout-blockcontainer padding-global padding-section-medium w-container">
+        <div class="feature-heading text-align-center">
+            <p class="section-subtitle">THIS IS HOW WE WORK</p>
+            <h2>Efficient Collaboration for Exceptional Results</h2>
+        </div>
+        <div class="feature-content">
+            <!-- Replace the entire feature_image-wrapper with a single timeline image -->
+            <div class="feature_image-wrapper">
+                <img src="~/images/6723504319a79c02c12c2d8c_img3.webp" alt="Timeline illustration" class="feature_image">
+            </div>
+            <div class="feature_text-wrapper">
+                <h3>Let the time flow</h3>
+                <p>Our team keeps everything on schedule. With clear project timelines, milestones, and deadlines, we move quickly and efficiently to bring your vision to life, right on time.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature-section">
+    <div class="w-layout-blockcontainer padding-global padding-section-medium w-container">
+        <div class="feature-content">
+            <div class="feature_text-wrapper">
+                <h3>Task Management Made Effortless</h3>
+                <p>Stay on top of every project with ease! Our kanban-style task management board transforms complex workflows into a simple, streamlined process. Organize, prioritize, and track progress in real-time—making it easy to see what’s done, what’s in progress, and what’s coming up. With our intuitive system, staying organized is no longer a task in itself!</p>
+            </div>
+            <div class="feature_image-wrapper">
+                <img src="~/images/6723504319a79c02c12c2d8c_img3.webp" alt="Task management illustration" class="feature_image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section" style="margin-bottom: 3rem">
+    <div class="faq-container w-layout-blockcontainer padding-global padding-section-medium w-container">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">
+                <p>How long does a typical project take to complete?</p>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Project timelines vary based on complexity and scope. A small website might take 4-6 weeks, while a comprehensive software application could span several months. After discussing your requirements, we provide a detailed project timeline.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <p>What kind of support do you offer after the project is completed?</p>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>We offer post-launch support, including maintenance, troubleshooting, and updates, to ensure the software runs smoothly and remains compatible with future technologies.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <p>How do you ensure project quality and reliability?</p>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Quality assurance is integral to our process. We employ thorough testing at each development stage, ensuring functionality, security, and usability before deployment.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <p>Do you offer custom development services?</p>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Absolutely! We tailor our services to fit each client's unique needs, providing custom software solutions, from mobile apps to complex backend systems.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-contact">
+        <h3>Still have a question?</h3>
+        <p>Don't hesitate to contact us for further discussions!</p>
+        <a href="#" class="contact-button" style="margin-top: 2rem">Contact us</a>
+    </div>
+</section>

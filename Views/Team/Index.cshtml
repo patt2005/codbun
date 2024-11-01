@@ -1,0 +1,283 @@
+@{
+    ViewData["Title"] = "Team";
+}
+
+<style>
+    .team-section {
+        padding: 4rem 1rem;
+        text-align: center;
+        background-color: #f9f9f9; /* Light background color */
+    }
+
+    .team-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .team-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #222;
+    }
+
+    .team-description {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        color: #555; 
+    }
+
+    /* Team Values Section Styles */
+    .team-values-section {
+        color: #fff; /* Light text color for contrast */
+        padding: 3rem 1rem;
+    }
+
+    .team-values-container {
+        display: flex;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem; /* Internal padding */
+        gap: 2rem;
+        flex-wrap: wrap; /* For responsiveness */
+        background-color: #222; /* Slightly lighter background for contrast */
+        border-radius: 20px; /* Rounded corners */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    }
+
+    .team-image-wrapper {
+        flex: 1;
+        border-radius: 15px;
+        overflow: hidden;
+        max-width: 500px;
+    }
+
+    .team-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 15px; /* Match border radius */
+    }
+
+    .team-values-text {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .values-heading {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .values-description {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .team-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9; /* Adjust as needed */
+    }
+
+    .section-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .team-member {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-image {
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .team-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0 5px;
+    }
+
+    .team-title {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .contact-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+
+    .contact-subtitle {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    .contact-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+        color: #aaa;
+    }
+
+    .send-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background: linear-gradient(to right, #4a00e0, #8e2de2);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .send-button:hover {
+        background: linear-gradient(to right, #3a00c0, #7a23c2);
+    }
+</style>
+
+<section class="team-section">
+    <div class="team-container">
+        <h2 class="team-heading">Meet the team.</h2>
+        <p class="team-description">
+            Get to know the minds and talents behind our success. Our team is a blend of creativity, expertise, and dedication, working together to bring innovative solutions to life. Each member plays a crucial role in delivering exceptional results for our clients.
+        </p>
+    </div>
+</section>
+
+<section class="team-values-section">
+    <div class="team-values-container">
+        <div class="team-image-wrapper">
+            <img src="~/images/6723504319a79c02c12c2daa_pexels-karolina-grabowska-7876739 (1).jpg" alt="Team at work" class="team-image">
+        </div>
+        <div class="team-values-text">
+            <h3 class="section-subtitle">Meet our team</h3>
+            <h2 class="section-title">This is us!</h2>
+            <h3 class="values-heading">Our values.</h3>
+            <p class="values-description">
+                We believe in the power of teamwork, integrity, and innovation. Our values drive every decision we make, ensuring we stay true to our mission of delivering high-quality solutions. We approach each project with passion and commitment, always putting our clients' needs first.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="team-section">
+    <div class="container">
+        <h2 class="section-title">We are all about the people.</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="images/6723504319a79c02c12c2dab_pexels-edmond-dantes-4347368.jpg" alt="Julia Bluebird" class="team-image">
+                <h3 class="team-name">Julia Bluebird</h3>
+                <p class="team-title">CEO, Head of operations</p>
+            </div>
+            <div class="team-member">
+                <img src="images/6723504319a79c02c12c2dac_pexels-cristian-rojas-10041258.jpg" alt="Emma Lawson" class="team-image">
+                <h3 class="team-name">Emma Lawson</h3>
+                <p class="team-title">CTO, Data Scientist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/6723504319a79c02c12c2db1_pexels-karolina-grabowska-8528744.jpg" alt="Ava Johnson" class="team-image">
+                <h3 class="team-name">Ava Johnson</h3>
+                <p class="team-title">Head of Design</p>
+            </div>
+            <div class="team-member">
+                <img src="images/6723504319a79c02c12c2db3_pexels-tima-miroshnichenko-5717546.jpg" alt="Isabella Green" class="team-image">
+                <h3 class="team-name">Isabella Green</h3>
+                <p class="team-title">Data Scientist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/6723504319a79c02c12c2db4_pexels-thisisengineering-3861954.jpg" alt="Sophia Martinez" class="team-image">
+                <h3 class="team-name">Sophia Martinez</h3>
+                <p class="team-title">Product Manager</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="container">
+        <p class="contact-subtitle">CONTACT US</p>
+        <h2 class="contact-title">Drop us a message and we will get back to you!</h2>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="email">Your e-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Your message here" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="send-button">Send</button>
+        </form>
+    </div>
+</section>

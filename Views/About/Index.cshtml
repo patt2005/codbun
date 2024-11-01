@@ -1,0 +1,129 @@
+@{
+ViewData["Title"] = "About Us";
+}
+
+<style>
+    /* Main Container */
+    .about-section {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    /* Hero Image */
+    .hero-image {
+        width: 100%;
+        height: 70vh;
+        background-image: url('team.jpeg'); /* Replace with your actual image path */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+        font-size: 48px;
+        font-weight: bold;
+        border-radius: 20px; /* Adds border radius */
+        overflow: hidden; /* Ensures corners of image are clipped */
+        margin: 20px auto; /* Adds space around the image */
+        max-width: 1200px; /* Restricts width on larger screens */
+    }
+
+
+    /* About Text Container */
+    .about-text {
+        padding: 60px 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
+    /* Heading Styles */
+    .about-text h2 {
+        font-size: 36px;
+        color: #4a00e0;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    /* Paragraph Styles */
+    .about-text p {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    /* Mission and Vision Containers */
+    .values-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        padding: 50px 20px;
+        border-radius: 20px;
+        background-color: #f1f4f9;
+    }
+
+    .value-card {
+        width: 280px;
+        background: #fff;
+        border-radius: 16px;
+        padding: 30px 20px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .value-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .value-card h3 {
+        font-size: 24px;
+        color: #4a00e0;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .value-card p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    /* Make the layout responsive */
+    
+</style>
+
+<section class="about-section">
+    <!-- Hero Image Section -->
+    <div class="hero-image">
+        Welcome to CodBun
+    </div>
+
+    <!-- About Text Section -->
+    <div class="about-text">
+        <h2>About CodBun</h2>
+        <p>At CodBun, we are passionate about creating innovative software solutions that transform businesses. Our team of expert developers, designers, and strategists work together to build custom software tailored to meet our clients' unique needs.</p>
+        <p>Founded with a mission to deliver high-quality, reliable software, CodBun has grown into a trusted name in the industry. We believe in leveraging the latest technologies and best practices to ensure our clients stay ahead in a rapidly evolving digital landscape.</p>
+    </div>
+
+    <!-- Our Values Section -->
+    <div class="values-section">
+        <div class="value-card">
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower businesses through innovative software solutions, enabling them to achieve their goals with efficiency and confidence.</p>
+        </div>
+        <div class="value-card">
+            <h3>Our Vision</h3>
+            <p>We envision a world where technology and software make every aspect of business seamless and efficient, helping businesses grow and succeed.</p>
+        </div>
+        <div class="value-card">
+            <h3>Core Values</h3>
+            <p>Integrity, collaboration, and innovation are the core values that guide everything we do at CodBun.</p>
+        </div>
+    </div>
+</section>
