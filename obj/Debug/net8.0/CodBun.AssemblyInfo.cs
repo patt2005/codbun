@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodBun")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caf61d65a9462d213a60e19751bb4506acf5c22f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3989f790ceb867076e97a27e1209aceee1a66c83")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodBun")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodBun")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

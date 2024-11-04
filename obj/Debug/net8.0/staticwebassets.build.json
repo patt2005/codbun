@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DrjATNr2tcF1wvOi2DaiPzmGbxDf4XH8+LUo7BDkRO0=",
+  "Hash": "9COEkImAkJC3jeh1fT2Fpb5AfSiNXyyu0brR4GBVpsY=",
   "Source": "CodBun",
   "BasePath": "_content/CodBun",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/672487f092114e10eea07bcd_Add a heading.png"
+    },
+    {
+      "Identity": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/app-icon.png",
+      "SourceId": "CodBun",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/petrugrigor/Documents/CodBun/wwwroot/",
+      "BasePath": "_content/CodBun",
+      "RelativePath": "images/app-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/app-icon.png"
     },
     {
       "Identity": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/mpower.png",
