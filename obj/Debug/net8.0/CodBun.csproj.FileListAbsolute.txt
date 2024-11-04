@@ -28,3 +28,4 @@
 /Users/petrugrigor/Documents/CodBun/obj/Debug/net8.0/CodBun.pdb
 /Users/petrugrigor/Documents/CodBun/obj/Debug/net8.0/CodBun.genruntimeconfig.cache
 /Users/petrugrigor/Documents/CodBun/obj/Debug/net8.0/ref/CodBun.dll
+/Users/petrugrigor/Documents/CodBun/obj/Debug/net8.0/CodBun.sourcelink.json

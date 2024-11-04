@@ -89,6 +89,30 @@
       "PackagePath": "staticwebassets/images/672487f092114e10eea07bcd_Add a heading.png"
     },
     {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/mpower.png",
+      "PackagePath": "staticwebassets/images/mpower.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/mrdp.png",
+      "PackagePath": "staticwebassets/images/mrdp.png"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/person1.jpg",
+      "PackagePath": "staticwebassets/images/person1.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/person2.jpg",
+      "PackagePath": "staticwebassets/images/person2.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/person3.jpg",
+      "PackagePath": "staticwebassets/images/person3.jpg"
+    },
+    {
+      "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/images/person4.jpeg",
+      "PackagePath": "staticwebassets/images/person4.jpeg"
+    },
+    {
       "Id": "/Users/petrugrigor/Documents/CodBun/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
